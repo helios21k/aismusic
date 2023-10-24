@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aiismuis</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        
+       <!--favicon-img--> 
+       <link rel="icon" type="image/png" href="images/logo-sekil.ico">
+       <!--favicon-img-->
+    
+        <link rel="stylesheet" href="css/index.css">
+       
+    
+    </head>
+<body>
+    <main id="songs-one">
+
+
+        
+        <div class="cursor scale"></div>
+        <div class="cursor-two scale"></div>
+
+        <div id="preloader">
+            <div class="p">
+                <img src="images/headphone.png" alt="headphone">
+            </div>
+            <div class="p">Use Headphone For Better Experience.</div>
+        </div>
+
+
+<!-- CONTENT -->
+        <div id="songs-one-content">
+
+
+
+   <!-- NAVIGATION -->
+   <div class="navigation">
+    <div class="logo hover ">
+       <a href="index-one.html" class="text">Ais Music</a>
+    </div>
+    <div class="menu-bar hover ">
+        <div class="menu-bar-name text">
+            Menu
+        </div>
+        <div class="menu-bar-lines text">
+            <div class="menu-bar-line"></div>
+            <div class="menu-bar-line"></div>
+        </div>
+    </div>
+</div>
+<!-- NAVIGATION -->
+
+
+
+
+
+
+<!-- HEADING -->
+<div class="heading">
+    <div class="text">
+      SONGS
+    </div>
+</div>
+
+<!-- HEADING -->
+
+
+
+
+<!-- SONGS CONTAINER -->
+
+
+<div class="center">
+<div id="songs-container">
+
+
+<a href="songs-one.html"><button class="button-34" >Back</button></a> 
+<a href="song-three.html"><button class="button-33" >Next</button></a>
+</div>
+   
+				</div>
+			</div>
+
+   
+				</div>
+			</div>
+    <!-- SONG -->
+
+
+
+
+
+
+</div>
+</div>
+
+<!-- SONGS CONTAINER -->
+
+
+
+ <!-- HEADPHONE IMG -->
+ <div class="headphone img text">
+    <img src="images/headphone.png" title="headphone zone" class="text" alt="headphone">
+  </div>
+   <!-- HEADPHONE IMG -->
+  
+               
+   
+ <!-- MUSIC INDICATOR -->
+ <div class="music-indicator">
+    <span style="--i:1;" class="music-indicator-span"></span>
+    <span style="--i:2;" class="music-indicator-span "></span>
+    <span style="--i:3;" class="music-indicator-span "></span>
+    <span style="--i:4;" class="music-indicator-span "></span>
+  </div>
+   <!-- MUSIC INDICATOR -->
+  
+               
+
+
+<!-- progress-bar -->
+<div class="progress-bar-container fade-in">
+    <div class="progressbar"></div>
+</div>
+<!-- progress-bar -->
+
+
+
+
+
+
+        </div>
+<!-- CONTENT -->
+
+
+      
+    <!-- NAVIGATION CONTENT -->
+
+    <div class="navigation-content">
+        <div class="navigation-logo hover opacity">
+            <a href="#" class="text">ARLO BROWN</a>
+         </div>
+        <ul class="navigation-ul">
+            <li><a href="index-one.html" data-text="Home" data-img="images/bg-image-three.jpg">Home</a></li>
+            <li><a href="about-one.html"  data-text="About"  data-img="images/about-img.jpg">About</a></li>
+            <li><a href="songs-one.html" data-text="Songs"  data-img="images/album-thumbnail-nine.jpg">Songs</a></li>
+            <li><a href="blog-one.html"  data-text="Blogs" data-img="images/main-bg-three.jpg">Blogs</a></li>
+            <li><a href="contact-one.html"  data-text="Contact" data-img="images/album-thumbnail-four.jpg">Contact</a></li>
+        </ul>
+        <div class="navigation-close hover about-close opacity">
+            <div class="navigation-close-line"></div>
+            <div class="navigation-close-line"></div>
+          </div>
+    
+            <div class="project-preview"></div>
+    
+            
+     <!-- HEADPHONE IMG -->
+     <div class="headphone-navigation opacity">
+        <img src="images/headphone.png" title="headphone zone" class="text" alt="headphone">
+      </div>
+       <!-- HEADPHONE IMG -->
+    
+    
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="social-media-links-navigation">
+            <ul>
+                <li ><a href="https://www.youtube.com/@AISMUIS" target="_blank" class="text hover opacity">YT</a></li>
+                <li ><a href="https://www.tiktok.com/@aiselmuktar"  class="text hover opacity" target="_blank">TT</a></li>
+                <li ><a href="https://www.instagram.com/aiismuis/"  class="text hover opacity" target="_blank">IG</a>
+                </li><li ><a href="https://t.me/aiismuis"  class="text hover opacity" target="_blank">TG</a></li>
+            </ul>
+        </div>
+          <!-- SOCIAL MEDIA LINKS -->
+    
+    </div>
+    
+    <!-- NAVIGATION CONTENT -->
+      
+
+
+
+
+
+
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bez.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const songsContainer = document.getElementById("songs-container");
+            const musicFiles = [
+                "AIS - Not - AIS.m4a",
+                "AIS - özünü unudursan.m4a",
+                "AIS - Sənə aid.mp3",
+                "Ais - soyuq adam (remix).mp3",
+                "AIS - Susqun (Cover).mp3",
+                "AIS - Yağış - AIS.m4a",
+                "AIS - Yalancı bahar.m4a",
+                "Ais - aykimi.m4a",
+                "AIS - Bilmədən oldu (cover).mp3",
+                "AIS - Dinlə.mp3",
+                "AIS - Düşün məni (cover).m4a",
+                "AIS - Filmin sonu - AIS.m4a",
+                "AIS - Gecə gecə (cover).m4a",
+                "AIS - Gelemem.m4a",
+                "AIS - Gözyaşı - AIS.m4a",
+                "AIS - Mənəm.mp3",
+                "AIS - Yürek (cover).m4a",
+                "AIS - шоколад (кавер).m4a",
+                "AIS- Al gözümden yaşları.mp3",
+                "AIS- Alınmır (Cover).m4a",
+                "AIS- Anladılmazsan.mp3",
+                "AIS- Apardı bir qərib xəyal (V.B).m4a",
+                "AIS- Ay kimi gizlənmə buludlarda - AIS.m4a",
+                "AIS- Bakı gecələri - AIS.m4a",
+                "AIS- Baxdığın kimi.m4a",
+                "AIS- Baxt - AIS.m4a",
+                "AIS- Bəlkə də.m4a",
+                "AIS- Bilərdin - AIS.m4a",
+                "AIS - Geriyə gəlmədi.m4a",
+                "AIS- Bivəfa.m4a",
+            ];
+    
+            musicFiles.forEach((musicFile, index) => {
+                const songNames = [
+                    "Not",
+                    "Özünü unudursan",
+                    "Sənə aid",
+                    "Soyuq adam(remix)",
+                    "Susqun",
+                    "Yağış",
+                    "Yalancı bahar",
+                    "Ay kimi",
+                    "Bilmədən oldu (cover)",
+                    "Dinlə",
+                    "Düşün məni (cover)",
+                    "Filmin sonu",
+                    "Gecə gecə (cover)",
+                    "Gelemem",
+                    "Gözyaşı",
+                    "Mənəm",
+                    "Yürek (cover)",
+                    "шоколад (кавер)",
+                    "Al gözümden yaşları",
+                    "Alınmır (Cover)",
+                    "Anladılmazsan.mp3",
+                    "Apardı bir qərib xəyal (V.B)",
+                    "Ay kimi gizlənmə buludlarda",
+                    "Bakı gecələri",
+                    "Baxdığın kimi",
+                    "Baxt",
+                    "Bəlkə də",
+                    "Bilərdin",
+                    "Geriyə gəlmədi",
+                    "Bivəfa",
+                ];
+
+                songsContainer.innerHTML += `
+                    <div class="song fade-up">
+                        <div class="song-img">
+                            <img src="images/${index + 1}.jpg" alt="song">
+                        </div>
+                        <div class="song-details">
+                            <div class="song-details-content">
+                                <div class="song-name">${songNames[index]}</div>
+                                <div class="artist-name">Ais</div>
+                            </div>
+                            <div class="music-player">
+                                <div class="play-song mouse">
+                                    <img src="images/play.png" alt="play" data-song="song-${index}">
+                                    <audio data-audio="song-${index}">
+                                        <source src="${musicFile}" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                                <div class="download-song">
+                                    <a href="${musicFile}" download="AIS - ${songNames[index]}"><img src="images/download.png" alt="download"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+        });
+    </script>
+    
+    
+
+</body>
+</html>
